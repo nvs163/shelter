@@ -1,0 +1,130 @@
+.pets {
+  background: #F6F6F6;
+}
+
+.pets__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 0px 100px;
+}
+
+.pets__title {
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0 auto 60px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.pets__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.pets__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FAFAFA;
+  border-radius: 9px;
+  width: 22%;
+  margin-bottom: 30px;
+}
+
+.pets__card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #545454;
+}
+
+.pets__card-img {
+  max-width: 270px;
+  max-height: 270px;
+  margin-bottom: 30px;
+}
+
+.pets__card-img img {
+  max-width: 100%;
+}
+
+.pets__card-name {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+}
+
+.pets__card-btn {
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  padding: 15px 45px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  margin: 0 36px 30px;
+}
+
+.pets__card:hover .pets__card-btn {
+  cursor: pointer;
+  background-color: #F1CDB3;
+  box-shadow: 0 0 5px #545454;
+}
+
+.paginator-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.paginator-arrow {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.paginator-arrow:last-child {
+  margin-right: 0px;
+}
+
+.paginator-arrow img {
+  width: 20%;
+}
+
+.paginator-more__namber {
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  background: #F1CDB3;
+  border-radius: 100%;
+}
+
+.paginator-more__link {
+  color: #292929;
+}
+
+.paginator-disabled {
+  border: 2px solid #CDCDCD;
+  border-radius: 100%;
+}
+
+.paginator-arrow__double-right, .paginator-arrow__right {
+  border: 2px solid #F1CDB3;
+  border-radius: 100%;
+}
+
+.paginator-arrow__double-right:hover, .paginator-arrow__right:hover {
+  cursor: pointer;
+  background: #F1CDB3;
+}

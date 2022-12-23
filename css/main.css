@@ -1,0 +1,27 @@
+@import "normalize.css";
+@import "settings.css";
+@import "fonts.css";
+@import "main-header.css";
+@import "main-start-screen.css";
+@import "main-about.css";
+@import "main-pets.css";
+@import "main-help.css";
+@import "main-addition.css";
+@import "our-pets-header.css";
+@import "our-pets-friends.css";
+@import "footer.css";
+
+
+
+/*--------------------*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+}

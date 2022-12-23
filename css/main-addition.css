@@ -1,0 +1,130 @@
+.donation {
+  background: #F6F6F6;
+}
+
+.donation__content {
+  padding: 80px 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation__img {
+  margin-right: 30px;
+}
+
+.donation__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation__title {
+  font-size: 2.1875rem;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+
+.donation__subtitle {
+  display: inline-block;
+  font-size: 0.9375rem;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+
+.donation__card-number {
+  display: inline-block;
+  padding: 10px 15px 10px 60px;
+  background: #F1CDB3;
+  font-size: 1.25rem;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.donation__card-number::before {
+  content: '';
+  width: 30px;
+  height: 23px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  background: url(../assets/icons/main/donation/credit-card.svg) no-repeat;
+}
+
+.donation__card-number:hover {
+  background: #FDDCC4;
+}
+
+
+.donation__text {
+  max-width: 380px;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+
+/* Media queries */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .donation__content {
+    padding: 80px 101px 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .donation__img {
+    margin-right: 0px;
+  }
+
+  .donation__info {
+    margin-bottom: 60px;
+  }
+}
+
+/* Smartphones  */
+@media (min-width: 320px) and (max-width: 480px) {
+  .donation__content {
+    padding: 42px 9px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .donation__img {
+    margin-right: 0px;
+  }
+
+  .donation__info {
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .donation__title {
+    text-align: center;
+    font-size: 1.5625rem;
+  }
+
+  .donation__subtitle {
+    line-height: 160%;
+    letter-spacing: 0em;
+  }
+
+  .donation__card-number {
+    font-size: 0.9375rem;
+    padding: 13px 15px 13px 60px;
+    line-height: 110%;
+  }
+
+  .donation__text {
+    text-align: justify;
+  }
+}
